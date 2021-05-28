@@ -1,0 +1,7 @@
+figcaption {
+  position: absolute;
+  bottom: 20rem;
+  margin: 0 2rem;
+  color: yellow;
+  font-size: 5em;
+}

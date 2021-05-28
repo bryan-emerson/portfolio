@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import Image from 'react-bootstrap/Image'
 import Container from 'react-bootstrap/Container'
 import image from './image/_DSF1713.jpg'
+import './style.css'
 
 export default class HomeImage extends Component {
   render() {
