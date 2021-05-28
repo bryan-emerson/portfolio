@@ -1,9 +1,11 @@
 figcaption {
   position: absolute;
   bottom: 15rem;
-  margin: 0 2rem;
-  color: yellow;
+  margin: 0 8rem;
   font-size: 5em;
+  color: gold;
+  font-weight: bold;
+  text-shadow: 1px 1px 0px black;
 }
 
 @media screen and (max-width: 768px) {
