@@ -6,8 +6,13 @@ import image from './image/_DSF1713.jpg'
 export default class HomeImage extends Component {
   render() {
     return (
-      <Container fluid>
-        <Image src={image} alt="Logo" fluid />
+      <Container fluid >
+        <figure className="position-relative">
+          <Image src={image} alt="portrait of Bryan" className="img-fluid" />
+          <figcaption>
+            Software Engineer
+          </figcaption>
+        </figure>
       </Container>
     )
   }
