@@ -1,7 +1,16 @@
 figcaption {
   position: absolute;
-  bottom: 20rem;
+  bottom: 15rem;
   margin: 0 2rem;
   color: yellow;
   font-size: 5em;
+}
+
+@media screen and (max-width: 768px) {
+  figcaption {
+    position: inherit;
+    bottom: inherit;
+    color: black;
+    font-size: 1em;
+  }
 }
