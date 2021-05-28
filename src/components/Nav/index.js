@@ -9,13 +9,13 @@ export default class Navigation extends Component {
   render() {
     return (
       <Navbar bg="light" expand="lg" sticky="top">
-        <Navbar.Brand href="#home" className="name">Bryan Emerson</Navbar.Brand>
+        <Navbar.Brand href="/" className="name">Bryan Emerson</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Container className="links-container">
           <Nav className="links">
-            <Nav.Link href="#home">Home</Nav.Link>
-            <Nav.Link href="#link">Link</Nav.Link>
+            <Nav.Link href="/">Home</Nav.Link>
+            <Nav.Link href="/about">About</Nav.Link>
             <Nav.Link href="#link1">Link</Nav.Link>
             <Nav.Link href="#link2">Link</Nav.Link>
           </Nav>
