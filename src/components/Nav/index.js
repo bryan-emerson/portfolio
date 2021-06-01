@@ -16,7 +16,7 @@ export default class Navigation extends Component {
           <Nav className="links">
             <Nav.Link href="/">Home</Nav.Link>
             <Nav.Link href="/about">About</Nav.Link>
-            <Nav.Link href="#link1">Link</Nav.Link>
+            <Nav.Link href="/projects">Projects</Nav.Link>
             <Nav.Link href="#link2">Link</Nav.Link>
           </Nav>
           </Container>

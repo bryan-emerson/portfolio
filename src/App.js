@@ -5,6 +5,7 @@ import Navigation from './components/Nav';
 // import HomeImage from './components/HomeImage';
 import HomePage from './pages/HomePage'
 import About from './pages/About'
+import Projects from './pages/Projects'
 
 
 function App() {
@@ -16,6 +17,9 @@ function App() {
           <Switch>
             <Route path="/about">
               <About />
+            </Route>
+            <Route path="/projects">
+              <Projects />
             </Route>
             <Route exact path="/">
               <HomePage />
