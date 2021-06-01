@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import ProjectCard from '../../components/ProjectCard/index.js'
 
 export default class Projects extends Component {
   constructor(props) {
@@ -8,7 +9,10 @@ export default class Projects extends Component {
 
   render() {
     return (
-      <h1>what's good</h1>
+      <div>
+        <h1>what's good</h1>
+        <ProjectCard />
+      </div>
     )
   }
 }
