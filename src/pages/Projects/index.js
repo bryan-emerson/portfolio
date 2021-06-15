@@ -1,4 +1,7 @@
 import React, { Component } from 'react';
+import Container from 'react-bootstrap/Container';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
 import ProjectCard from '../../components/ProjectCard/index.js'
 
 export default class Projects extends Component {
@@ -44,7 +47,7 @@ export default class Projects extends Component {
   getAllProj = (array, index) => {
     let tempArr = [];
     for (let i = 0; i < array.length; i++) {
-      tempArr.push(<ProjectCard projObj={array[i]} key={i}/>)
+      tempArr.push(<ProjectCard projObj={array[i]} key={i} />)
     }
     return tempArr;
   }
@@ -62,7 +65,12 @@ export default class Projects extends Component {
       <div>
         <h1>what's good</h1>
         {/* <ProjectCard projObj={this.state.projects}/> */}
-        {allProjects}
+        {/* {allProjects} */}
+        <Container fluid="md">
+          <Row>
+            {allProjects}
+          </Row>
+        </Container>
       </div>
     )
   }

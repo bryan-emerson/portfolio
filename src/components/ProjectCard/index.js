@@ -27,6 +27,7 @@ export default class ProjectCard extends Component {
             {this.props.projObj.info}
           </Card.Text>
           <Button variant="primary">Go somewhere</Button>
+          <Button variant="primary">Go somewhere else</Button>
         </Card.Body>
       </Card>
     )
