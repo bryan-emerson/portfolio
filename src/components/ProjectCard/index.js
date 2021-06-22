@@ -20,7 +20,7 @@ export default class ProjectCard extends Component {
     // console.log(this.props.projObj)
     return (
       <Card style={{ width: '18rem' }}>
-        <Card.Img variant="top" src="holder.js/100px180" />
+        <Card.Img variant="top" src={this.props.projObj.image} />
         <Card.Body>
           <Card.Title>{this.props.projObj.name}</Card.Title>
           <Card.Text>

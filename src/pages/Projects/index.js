@@ -1,8 +1,11 @@
 import React, { Component } from 'react';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
+// eslint-disable-next-line
 import Col from 'react-bootstrap/Col';
 import ProjectCard from '../../components/ProjectCard/index.js'
+
+import TicTac from '../../images/tictac.png'
 
 export default class Projects extends Component {
   // eslint-disable-next-line
@@ -11,14 +14,15 @@ export default class Projects extends Component {
     this.state = {
       projects: [
         {
-          name: 'project 1',
+          name: 'Tic Tac Toe',
           info: 'bunch of text about proj',
-          url: 'www.google.com'
+          url: 'cynical-pail.surge.sh',
+          image: TicTac
         },
         {
-          name: 'project 2',
+          name: 'Memory',
           info: 'bunch of text about proj 2',
-          url: 'www.google.com'
+          url: 'overt-library.surge.sh'
         },
         {
           name: 'project 3',
