@@ -6,6 +6,10 @@ import Col from 'react-bootstrap/Col';
 import ProjectCard from '../../components/ProjectCard/index.js'
 
 import TicTac from '../../images/tictac.png'
+import Memory from '../../images/memory.png'
+import MangaFront from '../../images/mangaFront.png'
+import MangaBack from '../../images/mangaBack.png'
+import StarWars from '../../images/starWarsAPI.png'
 
 export default class Projects extends Component {
   // eslint-disable-next-line
@@ -22,22 +26,26 @@ export default class Projects extends Component {
         {
           name: 'Memory',
           info: 'bunch of text about proj 2',
-          url: 'overt-library.surge.sh'
+          url: 'overt-library.surge.sh',
+          image: Memory
         },
         {
-          name: 'project 3',
+          name: 'Manga Meat Front End',
           info: 'bunch of text about proj',
-          url: 'www.google.com'
+          url: 'http://mangameat.surge.sh/food',
+          image: MangaFront
         },
         {
-          name: 'project 4',
+          name: 'Manga Meat Back End',
           info: 'bunch of text about proj 2',
-          url: 'www.google.com'
+          url: 'www.google.com',
+          image: MangaBack
         },
         {
-          name: 'project 5',
+          name: 'Star Wars API',
           info: 'bunch of text about proj',
-          url: 'www.google.com'
+          url: 'www.google.com',
+          image: StarWars
         },
         {
           name: 'project 6',
