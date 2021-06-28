@@ -4,24 +4,17 @@ Navbar {
 
 .links {
   justify-content: space-evenly;
-  color: red;
-}
-
-.link {
-  color: red;
-}
-
-.links-container {
-  /* width: 50vw; */
-  /* display: block; */
-  color: red;
 }
 
 .name {
-  font-size: 30px;
+  font-size: 40px;
   padding: 10px;
 }
 
 .navBack {
   background-color: goldenrod;
+}
+
+.nav-link {
+  font-size: 20px;
 }

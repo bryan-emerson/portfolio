@@ -20,15 +20,15 @@ export default class ProjectCard extends Component {
     // this.getAllProj(this.props.projObj)
     // console.log(this.props.projObj)
     return (
-      <Card style={{ width: '18rem' }} className="card">
+      <Card style={{ width: '18rem' }} >
         <Card.Img variant="top" src={this.props.projObj.image} />
         <Card.Body>
           <Card.Title>{this.props.projObj.name}</Card.Title>
           <Card.Text>
             {this.props.projObj.info}
           </Card.Text>
-          <Button variant="primary">Go To Repo</Button>
-          <Button variant="primary">Deployed Site</Button>
+          <Button className="bb" href={this.props.projObj.git} target="_blank" variant="secondary" >Go To Repo</Button>
+          <Button href={this.props.projObj.url} target="_blank" variant="secondary">Deployed Site</Button>
         </Card.Body>
       </Card>
     )

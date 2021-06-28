@@ -10,6 +10,7 @@ import Memory from '../../images/memory.png'
 import MangaFront from '../../images/mangaFront.png'
 import MangaBack from '../../images/mangaBack.png'
 import StarWars from '../../images/starWarsAPI.png'
+import './style.css'
 
 export default class Projects extends Component {
   // eslint-disable-next-line
@@ -19,32 +20,37 @@ export default class Projects extends Component {
       projects: [
         {
           name: 'Tic Tac Toe',
-          info: 'bunch of text about proj',
+          info: 'This project is the product of combining the skills we have learned in the first trimester of our software engineering bootcamp. In addition to that an emphasis was placed on self reliance as well as using available reputable documentation for learning new skills. I have created a simple game of memory. Click on cards to find matches!',
           url: 'cynical-pail.surge.sh',
+          git: 'https://github.com/bryan-emerson/tic-tac',
           image: TicTac
         },
         {
           name: 'Memory',
-          info: 'bunch of text about proj 2',
+          info: 'This project is the product of combining the skills we have learned in the first trimester of our software engineering bootcamp. In addition to that an emphasis was placed on self reliance as well as using available reputable documentation for learning new skills. I have created a simple game of memory. Click on cards to find matches!',
           url: 'overt-library.surge.sh',
+          git: 'https://github.com/bryan-emerson/memory',
           image: Memory
         },
         {
           name: 'Manga Meat Front End',
           info: 'bunch of text about proj',
           url: 'http://mangameat.surge.sh/food',
+          git: 'https://github.com/bryan-emerson/Manga-Meat-Front',
           image: MangaFront
         },
         {
           name: 'Manga Meat Back End',
           info: 'bunch of text about proj 2',
-          url: 'www.google.com',
+          url: 'https://manga-meat-back.herokuapp.com/food',
+          git: 'https://github.com/bryan-emerson/Manga-Meat-Back',
           image: MangaBack
         },
         {
           name: 'Star Wars API',
           info: 'bunch of text about proj',
-          url: 'www.google.com',
+          url: 'https://six2121.herokuapp.com/things',
+          git: 'https://github.com/bryan-emerson/star_wars_crud',
           image: StarWars
         },
         {
@@ -79,7 +85,7 @@ export default class Projects extends Component {
         {/* <ProjectCard projObj={this.state.projects}/> */}
         {/* {allProjects} */}
         <Container fluid="md">
-          <Row>
+          <Row className="cards">
             {allProjects}
           </Row>
         </Container>
