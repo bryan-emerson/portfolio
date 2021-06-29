@@ -10,6 +10,8 @@ import Memory from '../../images/memory.png'
 import MangaFront from '../../images/mangaFront.png'
 import MangaBack from '../../images/mangaBack.png'
 import StarWars from '../../images/starWarsAPI.png'
+import DadJokes from '../../images/dadJokes.png'
+import GameOfWar from '../../images/gameOfWar.png'
 import './style.css'
 
 export default class Projects extends Component {
@@ -54,9 +56,18 @@ export default class Projects extends Component {
           image: StarWars
         },
         {
-          name: 'project 6',
+          name: 'Random Dad Joke Generator',
           info: 'bunch of text about proj 2',
-          url: 'www.google.com'
+          url: 'http://cheerful-passenger.surge.sh/',
+          git: 'https://github.com/bryan-emerson/dad-jokes',
+          image: DadJokes
+        },
+        {
+          name: 'Game of War',
+          info: 'This is a digital representation of the game of war. It is based mainly in javascript and is built with Object Oriented Programming. It is played in the console. Game logic, ES6 classes, and methods have been used to create the playing environment.',
+          url: 'https://bryan-emerson.github.io/',
+          git: 'https://github.com/bryan-emerson/bryan-emerson.github.io',
+          image: GameOfWar
         },
       ]
     };

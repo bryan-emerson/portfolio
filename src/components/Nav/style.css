@@ -1,9 +1,6 @@
-Navbar {
-  color: red;
-}
-
 .links {
   justify-content: space-evenly;
+  color: black;
 }
 
 .name {
@@ -12,9 +9,10 @@ Navbar {
 }
 
 .navBack {
-  background-color: goldenrod;
+  background-color: rgb(226, 236, 218);
+  border-bottom: 3px solid black;
 }
 
 .nav-link {
-  font-size: 20px;
+  font-size: 22px;
 }

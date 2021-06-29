@@ -8,7 +8,7 @@ import './style.css'
 export default class Navigation extends Component {
   render() {
     return (
-      <Navbar bg="transparent" expand="lg" sticky="top" className="navBack">
+      <Navbar expand="lg" sticky="top" className="navBack">
         <Navbar.Brand href="/" className="name">Bryan Emerson</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
