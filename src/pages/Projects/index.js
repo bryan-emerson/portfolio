@@ -22,22 +22,22 @@ export default class Projects extends Component {
       projects: [
         {
           name: 'Tic Tac Toe',
-          info: 'This project is the product of combining the skills we have learned in the first trimester of our software engineering bootcamp. In addition to that an emphasis was placed on self reliance as well as using available reputable documentation for learning new skills. I have created a simple game of memory. Click on cards to find matches!',
-          url: 'cynical-pail.surge.sh',
+          info: 'This project digital representation of the classic game . Languages used incluse Javascript, HTML, and CSS. DOM manipulation has been used to create interactive gameplay with the HTML elements. This project has been deployed using surge.',
+          url: 'https://cynical-pail.surge.sh',
           git: 'https://github.com/bryan-emerson/tic-tac',
           image: TicTac
         },
         {
           name: 'Memory',
-          info: 'This project is the product of combining the skills we have learned in the first trimester of our software engineering bootcamp. In addition to that an emphasis was placed on self reliance as well as using available reputable documentation for learning new skills. I have created a simple game of memory. Click on cards to find matches!',
-          url: 'overt-library.surge.sh',
+          info: 'This project is a simple game of memory. Click on cards to find matches! The project was built with a focus on functional programming as opposed to object oriented programming. Vanilla Javascript & CSS were used along with DOM manipulation to create interactive gameplay with the HTML elements.',
+          url: 'https://overt-library.surge.sh',
           git: 'https://github.com/bryan-emerson/memory',
           image: Memory
         },
         {
           name: 'Manga Meat Front End',
           info: 'bunch of text about proj',
-          url: 'http://mangameat.surge.sh/food',
+          url: 'http://mangameat.surge.sh',
           git: 'https://github.com/bryan-emerson/Manga-Meat-Front',
           image: MangaFront
         },
@@ -64,7 +64,7 @@ export default class Projects extends Component {
         },
         {
           name: 'Game of War',
-          info: 'This is a digital representation of the game of war. It is based mainly in javascript and is built with Object Oriented Programming. It is played in the console. Game logic, ES6 classes, and methods have been used to create the playing environment.',
+          info: 'This is a digital representation of the card game war. It is based mainly in javascript and is built with Object Oriented Programming. It is played in the console. Game logic, ES6 classes, and methods have been used to create the playing environment.',
           url: 'https://bryan-emerson.github.io/',
           git: 'https://github.com/bryan-emerson/bryan-emerson.github.io',
           image: GameOfWar
