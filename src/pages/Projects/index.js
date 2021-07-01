@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
-// eslint-disable-next-line
 import ProjectCard from '../../components/ProjectCard/index.js'
 
 import TicTac from '../../images/tictac.png'
@@ -11,6 +10,8 @@ import MangaBack from '../../images/mangaBack.png'
 import StarWars from '../../images/starWarsAPI.png'
 import DadJokes from '../../images/dadJokes.png'
 import GameOfWar from '../../images/gameOfWar.png'
+import Portfolio from '../../images/portfolio.png'
+
 import './style.css'
 
 export default class Projects extends Component {
@@ -20,11 +21,11 @@ export default class Projects extends Component {
     this.state = {
       projects: [
         {
-          name: 'Tic Tac Toe',
-          info: 'This project is a digital representation of the classic game Tic Tac Toe. Languages used include Javascript, HTML, and CSS. DOM manipulation has been used to create interactive gameplay with the HTML elements. This project has been deployed using surge.',
+          name: 'Portfolio Webpage',
+          info: 'This webpage is a React App showcasing my abilities to potential employers. Project cards on the projects page are programmatically created from an array of objects containing relevant data. The cards are then conditionally rendered based to the data in the related object. React router was used to provide the user with different views.',
           url: null,
-          git: 'https://github.com/bryan-emerson/tic-tac',
-          image: TicTac
+          git: 'https://github.com/bryan-emerson/portfolio',
+          image: Portfolio
         },
         {
           name: 'Tic Tac Toe',

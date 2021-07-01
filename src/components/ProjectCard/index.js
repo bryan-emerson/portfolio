@@ -5,18 +5,6 @@ import Container from 'react-bootstrap/Container'
 import "./style.css"
 
 export default class ProjectCard extends Component {
-  // eslint-disable-next-line
-  // constructor(props) {
-  //   super(props);
-
-  // }
-
-  // getAllProj = (array) => {
-  //   for (let i = 0; i < array; i++) {
-  //     console.log(i)
-  //   }
-  // }
-
   render() {
     // console.log(this.props.projObj)
     if (this.props.projObj.url) {

@@ -7,7 +7,7 @@ import './style.css'
 export default class HomeImage extends Component {
   render() {
     return (
-      <Container fluid >
+      <Container fluid className='square'>
         <figure className="position-relative">
           <Image src={image} alt="portrait of Bryan" className="img-fluid" />
           <figcaption>
