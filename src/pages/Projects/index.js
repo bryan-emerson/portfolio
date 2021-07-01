@@ -22,7 +22,7 @@ export default class Projects extends Component {
       projects: [
         {
           name: 'Tic Tac Toe',
-          info: 'This project digital representation of the classic game . Languages used incluse Javascript, HTML, and CSS. DOM manipulation has been used to create interactive gameplay with the HTML elements. This project has been deployed using surge.',
+          info: 'This project is a digital representation of the classic game Tic Tac Toe. Languages used include Javascript, HTML, and CSS. DOM manipulation has been used to create interactive gameplay with the HTML elements. This project has been deployed using surge.',
           url: 'https://cynical-pail.surge.sh',
           git: 'https://github.com/bryan-emerson/tic-tac',
           image: TicTac
@@ -36,21 +36,21 @@ export default class Projects extends Component {
         },
         {
           name: 'Manga Meat Front End',
-          info: 'bunch of text about proj',
+          info: 'Manga Meat is the HOTTEST new anime food restaurant on the block! This is the front end of a MERN full stack app. This app is an online menu and database management system. The frontend was created as a React app. React was chosen for its component centered build process and speedy virtual DOM. Props were used for state management, and methods written in the App.js allow individual components to make CRUD requests to the backend.',
           url: 'http://mangameat.surge.sh',
           git: 'https://github.com/bryan-emerson/Manga-Meat-Front',
           image: MangaFront
         },
         {
           name: 'Manga Meat Back End',
-          info: 'bunch of text about proj 2',
+          info: 'This is the Back end of the full stack MERN app Manga Meat. It uses MongoDB, and Express is used to simplify the server creation process. This backend has full CRUD functionality using POST, GET, PUT, and DELETE requests. It is deployed using MongoDB Atlas and Heroku. Food data can be found at the \'/food\' endpoint and chef data can be found at the \'/character\' endpoint.',
           url: 'https://manga-meat-back.herokuapp.com/food',
           git: 'https://github.com/bryan-emerson/Manga-Meat-Back',
           image: MangaBack
         },
         {
           name: 'Star Wars API',
-          info: 'bunch of text about proj',
+          info: 'This project is a cloud based API with full CRUD functionality. You can find and edit information about some of your favorite Star wars characters on this API. Technologies used include Javascript, Express, MongoDB, Mongoose, & Heroku. You can access the API from the CLI by using http requests. GET, POST, PUT, and DELETE requests are all possible.',
           url: 'https://six2121.herokuapp.com/things',
           git: 'https://github.com/bryan-emerson/star_wars_crud',
           image: StarWars
