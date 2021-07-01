@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 // eslint-disable-next-line
-import Col from 'react-bootstrap/Col';
 import ProjectCard from '../../components/ProjectCard/index.js'
 
 import TicTac from '../../images/tictac.png'
@@ -91,11 +90,9 @@ export default class Projects extends Component {
       allProjects = this.getAllProj(this.state.projects)
     }
     return (
-      <div>
-        <h1>Check Out My Projects!</h1>
-        {/* <ProjectCard projObj={this.state.projects}/> */}
-        {/* {allProjects} */}
+      <div className='title'>
         <Container fluid="md">
+        <h1>Check Out My Projects!</h1>
           <Row className="cards">
             {allProjects}
           </Row>
