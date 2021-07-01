@@ -1,0 +1,39 @@
+h1 {
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+  padding-bottom: 5vh;
+}
+
+.words {
+  font-size: 30px;
+  text-align: left;
+  padding-left: 5vw;
+}
+
+.pic {
+  width: 30vw;
+  margin-left: 60vw;
+}
+
+.img-fluid {
+  margin: 5px;
+  border-radius: 10px;
+}
+
+
+@media screen and (max-width: 768px) {
+  .pic {
+    width: 60vw;
+    display: inline-block;
+    margin-left: 20vw;
+  }
+
+  .words {
+    font-size: 20px;
+    display: block;
+  }
+}
+

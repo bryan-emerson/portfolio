@@ -5,18 +5,32 @@ figcaption {
   font-size: 7em;
   color: #8da6a6;
   font-weight: bold;
-  text-shadow: 1px 1px 0px black;
+  text-shadow: 2px 2px 2px black;
 }
 
-.posi {
-  box-shadow: 0px 0px 8px 8px inset;
+@media screen and (max-width: 1024px) {
+  figcaption {
+    position: inherit;
+    bottom: inherit;
+    color: rgb(226, 236, 218);
+    font-size: 5em;
+  }
 }
 
 @media screen and (max-width: 768px) {
   figcaption {
     position: inherit;
     bottom: inherit;
-    color: black;
-    font-size: 1em;
+    color: rgb(226, 236, 218);
+    font-size: 3em;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  figcaption {
+    position: inherit;
+    bottom: inherit;
+    color: rgb(226, 236, 218);
+    font-size: 1.5em;
   }
 }

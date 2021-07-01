@@ -22,6 +22,13 @@ export default class Projects extends Component {
         {
           name: 'Tic Tac Toe',
           info: 'This project is a digital representation of the classic game Tic Tac Toe. Languages used include Javascript, HTML, and CSS. DOM manipulation has been used to create interactive gameplay with the HTML elements. This project has been deployed using surge.',
+          url: null,
+          git: 'https://github.com/bryan-emerson/tic-tac',
+          image: TicTac
+        },
+        {
+          name: 'Tic Tac Toe',
+          info: 'This project is a digital representation of the classic game Tic Tac Toe. Languages used include Javascript, HTML, and CSS. DOM manipulation has been used to create interactive gameplay with the HTML elements. This project has been deployed using surge.',
           url: 'https://cynical-pail.surge.sh',
           git: 'https://github.com/bryan-emerson/tic-tac',
           image: TicTac
