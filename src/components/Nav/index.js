@@ -18,6 +18,7 @@ export default class Navigation extends Component {
             <Nav.Link href="/projects">Projects</Nav.Link>
             <Nav.Link href="https://www.linkedin.com/in/bryanemerson-/" target="_blank">LinkedIn</Nav.Link>
             <Nav.Link href="https://github.com/bryan-emerson" target="_blank">Github</Nav.Link>
+            <Nav.Link href="https://docs.google.com/document/d/12CYUXDHy1HpexCoWimkxkHj8vrJjY78ds-yaDTRAZXU/edit" target="_blank">Resume</Nav.Link>
           </Nav>
           </Container>
         </Navbar.Collapse>

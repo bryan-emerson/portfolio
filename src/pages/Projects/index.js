@@ -15,10 +15,7 @@ import Portfolio from '../../images/portfolio.png'
 import './style.css'
 
 export default class Projects extends Component {
-  // eslint-disable-next-line
-  constructor(props) {
-    super(props);
-    this.state = {
+    state = {
       projects: [
         {
           name: 'Portfolio Webpage',
@@ -78,7 +75,6 @@ export default class Projects extends Component {
         },
       ]
     };
-  }
 
   getAllProj = (array, index) => {
     let tempArr = [];
