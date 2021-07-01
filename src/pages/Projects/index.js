@@ -57,7 +57,7 @@ export default class Projects extends Component {
         },
         {
           name: 'Random Dad Joke Generator',
-          info: 'bunch of text about proj 2',
+          info: 'This is a React app featuring a simple UI that makes a fetch call to a dad joke API. Every time the dad joke button is pressed a new random dad joke appears!',
           url: 'http://cheerful-passenger.surge.sh/',
           git: 'https://github.com/bryan-emerson/dad-jokes',
           image: DadJokes
@@ -92,7 +92,7 @@ export default class Projects extends Component {
     }
     return (
       <div>
-        <h1>what's good</h1>
+        <h1>Check Out My Projects!</h1>
         {/* <ProjectCard projObj={this.state.projects}/> */}
         {/* {allProjects} */}
         <Container fluid="md">
