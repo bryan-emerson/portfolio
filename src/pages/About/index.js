@@ -7,7 +7,7 @@ import './style.css'
 export default class About extends Component {
   render() {
     return (
-      <div>
+      <div className='body'>
         <h1>Hello!</h1>
         <h2>Thanks for checking out my webpage!</h2>
         <Container className='pic'>
