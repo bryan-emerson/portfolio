@@ -11,6 +11,7 @@ import StarWars from '../../images/starWarsAPI.png'
 import DadJokes from '../../images/dadJokes.png'
 import GameOfWar from '../../images/gameOfWar.png'
 import Portfolio from '../../images/portfolio.png'
+import Dad2 from '../../images/dad2.png'
 
 import './style.css'
 
@@ -23,6 +24,13 @@ export default class Projects extends Component {
           url: null,
           git: 'https://github.com/bryan-emerson/portfolio',
           image: Portfolio
+        },
+        {
+          name: 'Dad Jokes 2.0',
+          info: 'This is a single page React app using functional component based architecture. Hooks and Props are used for state management. The useEffect hook makes an intial fetch call to the Dad Jokes API. These initial jokes are rendered until the user enters a search term in the form. The form input is used to programatically update the fetch call on change, and new jokes matching the search term are rendered!',
+          url: 'https://abhorrent-lumber.surge.sh/',
+          git: 'https://github.com/bryan-emerson/jokeDad',
+          image: Dad2
         },
         {
           name: 'Tic Tac Toe',
