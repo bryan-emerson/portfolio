@@ -12,6 +12,7 @@ import DadJokes from '../../images/dadJokes.png'
 import GameOfWar from '../../images/gameOfWar.png'
 import Portfolio from '../../images/portfolio.png'
 import Dad2 from '../../images/dad2.png'
+import ToDoList from '../../images/toDoList.png'
 
 import './style.css'
 
@@ -24,6 +25,13 @@ export default class Projects extends Component {
           url: null,
           git: 'https://github.com/bryan-emerson/portfolio',
           image: Portfolio
+        },
+        {
+          name: 'TypeScript To Do List',
+          info: 'This To Do List App was created with TypeScript, HTML, and CSS. It was bundled with snowpack. New Task <li> items are programatically appended to the <ul> parent node and are written to local storage for persistence. The app can clear checked tasks by comparing unique IDs between items and splicing them out of the Tasks array, then re writing it to local storage. The list is then re rendered in the browser to reflect the removed items!',
+          url: 'https://soft-clock.surge.sh/',
+          git: 'https://github.com/bryan-emerson/toDoList-Snowpack',
+          image: ToDoList
         },
         {
           name: 'Dad Jokes 2.0',
