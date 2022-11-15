@@ -13,6 +13,7 @@ import GameOfWar from '../../images/gameOfWar.png'
 import Portfolio from '../../images/portfolio.png'
 import Dad2 from '../../images/dad2.png'
 import ToDoList from '../../images/toDoList.png'
+import Weather from '../../images/weather.png'
 
 import './style.css'
 
@@ -32,6 +33,13 @@ export default class Projects extends Component {
           url: 'https://soft-clock.surge.sh/',
           git: 'https://github.com/bryan-emerson/toDoList-Snowpack',
           image: ToDoList
+        },
+        {
+          name: 'Weather App!',
+          info: 'In this React app, the useEffect hook calls navigator.geolocation.getCurrentPosition() when the page loads to determine the user’s location. A fetch call is then made to the Open Weather API, and hooks are used to set the returned data to state. Conditional rendering shows a loading message until the weather app UI renders.  A link at the bottom of the app will programmatically make a search string for the dark skies website using , and take users to a more in-depth weather data site.',
+          url: 'https://unused-earthquake.surge.sh/',
+          git: 'https://github.com/bryan-emerson/weather-one',
+          image: Weather
         },
         {
           name: 'Dad Jokes 2.0',
