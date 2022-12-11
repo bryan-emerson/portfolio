@@ -9,7 +9,7 @@ export default class HomeImage extends Component {
     return (
       <Container fluid className='square'>
         <figure className="position-relative">
-          <Image src={image} alt="portrait of Bryan" className="img-fluid" />
+          <Image src={image} alt="portrait of Bryan" className="img-fluid"/>
           <figcaption>
             Software Engineer
           </figcaption>

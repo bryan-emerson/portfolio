@@ -5,7 +5,7 @@ figcaption {
   font-size: 7em;
   color: #8da6a6;
   font-weight: bold;
-  text-shadow: 2px 2px 2px black;
+  text-shadow: 4px 4px 4px black, 0 0 6px black;
 }
 
 @media screen and (max-width: 1024px) {

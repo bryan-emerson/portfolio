@@ -8,5 +8,30 @@
 }
 
 .bb {
+  margin-top: auto;
   margin: 5px;
+
+}
+
+.cardText {
+  min-height: 12em;
+  max-height: 12em;
+  overflow-y: auto;
+}
+
+.cardText:hover {
+  cursor: all-scroll;
+}
+
+.cardCont {
+  display: flex;
+  flex-direction: column;
+}
+
+.cardImage {
+  height: 10em;
+}
+
+.cardTitle {
+  height: 2em;
 }

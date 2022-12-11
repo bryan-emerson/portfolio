@@ -10,11 +10,11 @@ export default class ProjectCard extends Component {
     if (this.props.projObj.url) {
     return (
       <Card style={{ width: '18rem' }}>
-        <Card.Img variant="top" src={this.props.projObj.image} />
+        <Card.Img className="cardImage" variant="top" src={this.props.projObj.image} />
         <Card.Body>
-          <Container>
-              <Card.Title>{this.props.projObj.name}</Card.Title>
-              <Card.Text>
+          <Container className="cardCont">
+              <Card.Title className="cardTitle">{this.props.projObj.name}</Card.Title>
+              <Card.Text className="cardText">
                 {this.props.projObj.info}
               </Card.Text>
               <Button className="bb" href={this.props.projObj.git} target="_blank" variant="secondary" >Go To Repo</Button>
@@ -26,11 +26,11 @@ export default class ProjectCard extends Component {
     } else if (this.props.projObj.url === null) {
       return (
         <Card style={{ width: '18rem' }}>
-          <Card.Img variant="top" src={this.props.projObj.image} />
+          <Card.Img className="cardImage" variant="top" src={this.props.projObj.image} />
           <Card.Body>
-            <Container>
-                <Card.Title>{this.props.projObj.name}</Card.Title>
-                <Card.Text>
+            <Container className="cardCont">
+                <Card.Title className="cardTitle">{this.props.projObj.name}</Card.Title>
+                <Card.Text className="cardText">
                   {this.props.projObj.info}
                 </Card.Text>
                 <Button className="bb" href={this.props.projObj.git} target="_blank" variant="secondary" >Go To Repo</Button>
