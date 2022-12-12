@@ -64,7 +64,7 @@ export default class Projects extends Component {
         {
           name: 'Manga Meat Front End',
           info: 'Manga Meat is the HOTTEST new anime food restaurant on the block! This is the front end of a MERN full stack app. This app is an online menu and database management system. The frontend was created as a React app. React was chosen for its component centered build process and speedy virtual DOM. Props were used for state management, and methods written in the App.js allow individual components to make CRUD requests to the backend.',
-          url: 'http://mangameat.surge.sh',
+          url: 'https://coherent-property.surge.sh',
           git: 'https://github.com/bryan-emerson/Manga-Meat-Front',
           image: MangaFront
         },
