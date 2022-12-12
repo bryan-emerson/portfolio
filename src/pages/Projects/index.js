@@ -35,7 +35,7 @@ export default class Projects extends Component {
         },
         {
           name: 'Weather App!',
-          info: 'In this React app, the useEffect hook calls navigator.geolocation.getCurrentPosition() when the page loads to determine the user’s location. A fetch call is then made to the Open Weather API, and hooks are used to set the returned data to state. Conditional rendering shows a loading message until the weather app UI renders.  A link at the bottom of the app will programmatically make a search string for the dark skies website using , and take users to a more in-depth weather data site.',
+          info: 'In this React app, the useEffect hook calls navigator.geolocation.getCurrentPosition() when the page loads to determine the user’s location. A fetch call is then made to the Open Weather API, and hooks are used to set the returned data to state. Conditional rendering shows a loading message until the weather app UI renders.  A link at the bottom of the app will programmatically make a search string for the dark skies website, and take users to a more in-depth weather data experience.',
           url: 'https://unused-earthquake.surge.sh/',
           git: 'https://github.com/bryan-emerson/weather-one',
           image: Weather
@@ -64,7 +64,7 @@ export default class Projects extends Component {
         {
           name: 'Manga Meat Front End',
           info: 'Manga Meat is the HOTTEST new anime food restaurant on the block! This is the front end of a MERN full stack app. This app is an online menu and database management system. The frontend was created as a React app. React was chosen for its component centered build process and speedy virtual DOM. Props were used for state management, and methods written in the App.js allow individual components to make CRUD requests to the backend.',
-          url: 'https://coherent-property.surge.sh',
+          url: 'https://shiny-yarn.surge.sh',
           git: 'https://github.com/bryan-emerson/Manga-Meat-Front',
           image: MangaFront
         },
